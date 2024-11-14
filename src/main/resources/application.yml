@@ -1,0 +1,23 @@
+spring:
+  artemis:
+    password: simetraehcapa
+    user: artemis
+  security:
+    user:
+      name: good
+      password: beer
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+  application:
+    name: inventory-service
+  zipkin:
+    enabled: false
+logging:
+  level:
+    guru:
+      sfg: debug
+      nodeValue: debug
+server:
+  port: '8082'
